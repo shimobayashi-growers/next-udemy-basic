@@ -31,3 +31,9 @@ npm run start
 
 npm run lint
 コードの静的解析、build 時にも実行
+
+## コンポーネント比較表
+
+```
+public/client_server_ comparison.png
+```
