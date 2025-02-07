@@ -5,6 +5,14 @@ type Params = {
     }>
 }
 
+export async function generateMetadata({ params }: Params) {
+    const {id} = await params;
+    return {
+        title: `Blog ${id}`,
+        description: `Blog ${id}`,
+    }
+}
+
 export default async function page({ params }: Params ) {
   const {id} = await params;
   
