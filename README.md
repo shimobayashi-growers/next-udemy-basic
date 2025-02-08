@@ -37,3 +37,31 @@ npm run lint
 ```
 public/client_server_ comparison.png
 ```
+
+## レンダリング
+
+### CSR（ClientSideRendering）
+
+- クライアント側でレンダリング
+
+### SSR（ServerSideRendering）
+
+- サーバ側でレンダリング（常に更新）
+
+### SSG（StaticSiteGeneration）
+
+- 静的サイト生成（ビルド時に生成、更新しない）
+
+### ISR（IncrementalStaticGeneration）
+
+- 特定の期間やタイミングで再更新
+
+```
+public/csr-ssr-ssg-isr.png
+```
+
+## 画像の最適化
+
+import Image from 'next/image'
+
+外部 API の画像使用時は「next-config.ts」で外部ドメインの許可が必要
