@@ -34,9 +34,7 @@ npm run lint
 
 ## コンポーネント比較表
 
-```
-public/client_server_ comparison.png
-```
+![client_server_comparison](https://github.com/shimobayashi-growers/next-udemy-basic/blob/main/public/client_server_%20comparison.png)
 
 ## レンダリング
 
@@ -56,12 +54,16 @@ public/client_server_ comparison.png
 
 - 特定の期間やタイミングで再更新
 
-```
-public/csr-ssr-ssg-isr.png
-```
+![csr-ssr-ssg-isr](https://github.com/shimobayashi-growers/next-udemy-basic/blob/main/public/csr-ssr-ssg-isr.png)
 
 ## 画像の最適化
 
 import Image from 'next/image'
 
 外部 API の画像使用時は「next-config.ts」で外部ドメインの許可が必要
+
+## データ操作
+
+![data-crud](https://github.com/shimobayashi-growers/next-udemy-basic/blob/main/public/data-crud.png)
+
+![crud-blog-sample](https://github.com/shimobayashi-growers/next-udemy-basic/blob/main/public/crud-blog-sample.png)
