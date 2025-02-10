@@ -67,3 +67,11 @@ import Image from 'next/image'
 ![data-crud](https://github.com/shimobayashi-growers/next-udemy-basic/blob/main/public/data-crud.png)
 
 ![crud-blog-sample](https://github.com/shimobayashi-growers/next-udemy-basic/blob/main/public/crud-blog-sample.png)
+
+## バリデーション
+
+zom ライブラリ
+
+```
+npm install zod@^3
+```
