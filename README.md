@@ -85,3 +85,21 @@ npm install prisma@^6
 npm install @prisma/client@^6
 npx prisma init
 ```
+
+スキーマ作成後
+
+```
+npx prisma migrate dev --name init
+```
+
+データ確認
+
+```
+npx prisma studio
+```
+
+DB リセット
+
+```
+npx prisma migrate reset
+```
