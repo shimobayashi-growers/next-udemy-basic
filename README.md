@@ -75,3 +75,13 @@ zom ライブラリ
 ```
 npm install zod@^3
 ```
+
+## DB 登録
+
+Prisma
+
+```
+npm install prisma@^6
+npm install @prisma/client@^6
+npx prisma init
+```
